@@ -1,0 +1,59 @@
+import nodemailer from "nodemailer";
+import { NextResponse } from "next/server";
+
+export async function POST(req) {
+  try {
+    const body = await req.json();
+
+    const { name, email, subject, message } = body;
+
+    if (!name || !email || !subject || !message) {
+      return NextResponse.json(
+        { success: false, message: "All fields are required." },
+        { status: 400 }
+      );
+    }
+
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
+      },
+    });
+
+    await transporter.sendMail({
+      from: process.env.EMAIL_USER,
+      to: process.env.EMAIL_TO,
+      subject: `Portfolio Contact - ${subject}`,
+      html: `
+        <h2>New Contact Message</h2>
+
+        <p><strong>Name:</strong> ${name}</p>
+
+        <p><strong>Email:</strong> ${email}</p>
+
+        <p><strong>Subject:</strong> ${subject}</p>
+
+        <p><strong>Message:</strong></p>
+
+        <p>${message}</p>
+      `,
+    });
+
+    return NextResponse.json({
+      success: true,
+      message: "Message sent successfully.",
+    });
+  } catch (error) {
+    console.log(error);
+
+    return NextResponse.json(
+      {
+        success: false,
+        message: "Something went wrong.",
+      },
+      { status: 500 }
+    );
+  }
+}

@@ -48,10 +48,10 @@ const projects = [
     ],
 
     shortDescription:
-      "Online course selling platform with instructor dashboard.",
+      "Study Nook is a responsive online learning platform built to provide a seamless educational experience with course browsing, authentication, and an intuitive dashboard for learners.",
 
     description:
-      "CourseHub enables instructors to publish courses and students to enroll, watch lessons, and track their learning progress.",
+      "Study Nook is a modern full-stack e-learning platform designed to provide a seamless online learning experience. It allows users to browse and enroll in courses, manage their learning journey through an intuitive dashboard, and access educational content on any device. Built with a responsive and user-friendly interface, the platform focuses on delivering an engaging and efficient learning environment while showcasing scalable web development practices.",
 
     live: "https://studynook-app-one.vercel.app",
     github: "https://github.com/shohel-shihab/studynook-app",
@@ -81,10 +81,10 @@ const projects = [
     ],
 
     shortDescription:
-      "Hotel booking platform with room management system.",
+      "SkillSphere is a modern full-stack learning platform that helps users discover, enroll in, and manage skill-based courses through a responsive and intuitive user interface.",
 
     description:
-      "Users can search hotels, filter by budget, book rooms, and manage reservations while hotel owners manage listings.",
+      "SkillSphere is a full-stack online learning platform built to make skill development more accessible and engaging. The application allows users to explore a wide range of courses, enroll in programs, and manage their learning progress through a clean and responsive dashboard. It features secure authentication, an intuitive user experience, and a scalable architecture, demonstrating best practices in modern web development while delivering a seamless learning experience across all devices.",
 
     live: "https://skillsphere-app-sooty.vercel.app",
 

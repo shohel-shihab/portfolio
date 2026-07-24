@@ -99,9 +99,7 @@ export default function About() {
               </h4>
 
               <p className="mt-3 text-gray-400 leading-7">
-                Started with C and C++, then explored Java, Data Structures,
-                Algorithms, and eventually specialized in modern Full Stack
-                Web Development using the MERN ecosystem.
+               My programming journey began with C, followed by Java, where I built a strong foundation in programming and object-oriented concepts. Today, I specialize in JavaScript and the MERN stack, developing modern, scalable full-stack web applications.
               </p>
             </div>
 
@@ -128,10 +126,8 @@ export default function About() {
               </h4>
 
               <p className="mt-3 text-gray-400 leading-7">
-                Outside of programming, I enjoy playing sports, reading
-                technology articles, exploring AI innovations, and spending
-                time learning through real-world projects and open-source
-                contributions.
+                Beyond Coding
+Outside of programming, I enjoy playing sports, watching football, reading technology articles, exploring AI innovations, contributing to open-source projects, and continuously learning by building real-world applications.
               </p>
             </div>
 

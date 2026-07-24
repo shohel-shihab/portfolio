@@ -1,7 +1,7 @@
 import About from "../components/about/About";
 import Contact from "../components/contact/Contact";
 import Education from "../components/education/Education";
-import Footer from "../components/footer/Footer";
+
 import Hero from "../components/hero/Hero";
 import Projects from "../components/projects/Projects";
 import Skills from "../components/skills/Skills";
@@ -16,7 +16,7 @@ export default function Home() {
     <Education></Education>
     <Projects></Projects>
     <Contact></Contact>
-    <Footer></Footer>
+    
     </main>
   );
 }

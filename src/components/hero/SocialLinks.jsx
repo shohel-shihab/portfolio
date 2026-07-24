@@ -11,20 +11,16 @@ import {
 const socials = [
   {
     icon: <FaGithub />,
-    url: "https://github.com/yourusername",
+    url: "https://github.com/shohel-shihab",
   },
   {
     icon: <FaLinkedinIn />,
-    url: "https://linkedin.com/in/yourusername",
+    url: "https://www.linkedin.com/in/rshihab21",
   },
   {
     icon: <FaFacebookF />,
-    url: "https://facebook.com/yourusername",
-  },
-  {
-    icon: <FaTwitter />,
-    url: "https://twitter.com/yourusername",
-  },
+    url: "https://www.facebook.com/shihabsarker031",
+  }
 ];
 
 export default function SocialLinks() {

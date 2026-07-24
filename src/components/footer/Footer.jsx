@@ -36,20 +36,16 @@ const links = [
 const socials = [
   {
     icon: <FaGithub />,
-    href: "https://github.com/yourusername",
+    href: "https://github.com/shohel-shihab",
   },
   {
     icon: <FaLinkedin />,
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/rshihab21",
   },
   {
     icon: <FaFacebook />,
-    href: "https://facebook.com/yourusername",
-  },
-  {
-    icon: <FaTwitter />,
-    href: "https://twitter.com/yourusername",
-  },
+    href: "https://www.facebook.com/shihabsarker031/",
+  }
 ];
 
 export default function Footer() {

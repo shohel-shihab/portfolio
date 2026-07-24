@@ -1,11 +1,9 @@
 const projects = [
   {
     slug: "bibliodrop",
-
     title: "BiblioDrop",
-
     image: "/projects/bibliodrop.png",
-
+    live: "https://bibliodrop.vercel.app",
     tech: [
       "Next.js",
       "React",
@@ -20,11 +18,8 @@ const projects = [
 
     description:
       "BiblioDrop is a full-stack library management application that allows users to browse books, borrow books, and manage their personal reading history. Administrators can manage books, categories, and users through a secure dashboard.",
-
-    live: "https://your-live-site.com",
-
-    github: "https://github.com/yourusername/bibliodrop-client",
-
+    live: "https://bibliodrop-client-tau.vercel.app",
+    github: "https://github.com/shohel-shihab/bibliodrop-client",
     challenges: [
       "Designing a scalable database structure.",
       "Implementing secure JWT authentication.",
@@ -39,11 +34,10 @@ const projects = [
   },
 
   {
-    slug: "coursehub",
-
-    title: "CourseHub",
-
-    image: "/projects/coursehub.png",
+    slug: "studynook",
+    title: "Study Nook",
+    image: "/study.png",
+     live: "https://studynook-app-one.vercel.app",
 
     tech: [
       "Next.js",
@@ -59,9 +53,8 @@ const projects = [
     description:
       "CourseHub enables instructors to publish courses and students to enroll, watch lessons, and track their learning progress.",
 
-    live: "https://your-coursehub.com",
-
-    github: "https://github.com/yourusername/coursehub-client",
+    live: "https://studynook-app-one.vercel.app",
+    github: "https://github.com/shohel-shihab/studynook-app",
 
     challenges: [
       "Role-based authentication.",
@@ -77,12 +70,9 @@ const projects = [
   },
 
   {
-    slug: "travel-booking",
-
-    title: "Travel Booking",
-
-    image: "/projects/travel-booking.png",
-
+    slug: "skills",
+    title: "SkillSphere",
+    image: "/skills.png",
     tech: [
       "React",
       "Express",
@@ -96,9 +86,9 @@ const projects = [
     description:
       "Users can search hotels, filter by budget, book rooms, and manage reservations while hotel owners manage listings.",
 
-    live: "https://travel-booking.com",
+    live: "https://skillsphere-app-sooty.vercel.app",
 
-    github: "https://github.com/yourusername/travel-client",
+    github: "https://github.com/shohel-shihab/skillsphere-app",
 
     challenges: [
       "Booking conflict handling.",

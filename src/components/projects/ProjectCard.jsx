@@ -37,6 +37,27 @@ export default function ProjectCard({ project }) {
           ))}
         </div>
 
+        <div className="mt-6 flex gap-3">
+
+          <a
+            href={project.live}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 rounded-xl border border-green-500 bg-green-500/10 py-3 text-center font-semibold text-green-400 transition hover:bg-green-500 hover:text-white"
+          >
+            Live Demo
+          </a>
+
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 rounded-xl border border-gray-600 bg-white/5 py-3 text-center font-semibold transition hover:border-violet-500 hover:bg-violet-500"
+          >
+            GitHub
+          </a>
+
+        </div>
         <Link
           href={`/projects/${project.slug}`}
           className="mt-8 inline-flex rounded-full bg-gradient-to-r from-violet-600 to-purple-500 px-6 py-3 font-semibold transition hover:scale-105"
